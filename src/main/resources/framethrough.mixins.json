@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "mods.framethrough.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ItemFramePassthroughMixin"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

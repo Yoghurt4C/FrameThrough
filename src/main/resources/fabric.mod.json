@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mobjar",
+  "version": "${version}",
+
+  "name": "FrameThrough",
+  "description": "a frame for through",
+  "authors": [
+    "Yoghurt4C"
+  ],
+  "contact": {
+    "homepage": "fecalfunny.com",
+    "sources": ""
+  },
+
+  "license": "MMPL-J 1.0",
+  "icon": "assets/framethrough/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ],
+    "client": [
+    ]
+  },
+  "mixins": [
+    "framethrough.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
